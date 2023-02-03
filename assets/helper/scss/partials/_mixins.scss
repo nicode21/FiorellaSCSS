@@ -1,0 +1,19 @@
+@mixin realtive-box () {
+  position: relative;
+}
+
+@mixin absolute-box ($top,$left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+@mixin decoration ($text-color, $bg-color, $font) {
+  position: absolute;
+  color: $text-color;
+  font-family: $font;
+  margin: 0;
+  background-color: $bg-color;
+  padding: 5px 12px;
+  font-size: 14px;
+}
